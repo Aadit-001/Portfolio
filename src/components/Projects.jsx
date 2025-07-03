@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Rdental from '../assets/RDental.png';
-import EquityElite from '../assets/EquityElite.png';
+import EquityElite from '../assets/equityelite.png';
 import ScannerOMR from '../assets/ScannerOMR.png';
 import Portfolio from '../assets/Portfolio.png';
 import drop_game from '../assets/drop_game.png';
+import FusionMedia from '../assets/FusionMedia.png';
 import {FaGithub} from 'react-icons/fa';
 // import TaskManager from '../assets/TaskManager.png';
 // import {fireDB} from '../firebase/firebaseConfig';
@@ -36,13 +37,24 @@ const Projects = () => {
       // gitLink: "https://github.com/Aadit-001/Rdental"
     },
     {
+      title: "Fusion Media",
+      description: "A freelancing project for Fusion Media which is a digital marketing agency",
+      tech: ["React","Tailwind CSS","Git","GitHub","Figma"],
+      image: FusionMedia, 
+      link: "https://fusionmedias.in",
+      live: "yes",
+      gitLink: "https://github.com/Aadit-001/FusionMediaa"
+    },
+    {
       title: "Equity Elite",
       description: "A Social Media Web Application for traders and Stock Market Analysts",
       tech: ["React", "Node.js","MongoDB","ExpressJs", "Tailwind CSS","Git", "GitHub"],
       image: EquityElite, 
-      link: "https://equityelite.vercel.app/",
+      link: "https://equityelite0.web.app",
+      live: "yes",
       gitLink: "https://github.com/Aadit-001/EquityElite"
     },
+
     {
       title: "ScannerOMR",
       description: "A web application integrated with flask and OpenCV for OMR sheet scanning.",
